@@ -241,7 +241,7 @@ public class MainActivity extends AppCompatActivity {
 
     //如果你需要一个一段时间之后才发射的Observable，你可以像下面的例子使用timer()：
     void timer() {
-        //它将3秒后发射0,然后就完成了。
+         //它将3秒后发射0,然后就完成了。
         Observable.timer(3, TimeUnit.SECONDS).subscribe(new Observer<Long>() {
             @Override
             public void onSubscribe(Disposable d) {
